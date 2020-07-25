@@ -1,0 +1,30 @@
+<log4j:event logger="com.nt.test.Test" timestamp="1595502375378" level="DEBUG" thread="main">
+<log4j:message><![CDATA[Mukesh Patel]]></log4j:message>
+<log4j:locationInfo class="com.nt.test.Test" method="main" file="Test.java" line="9"/>
+</log4j:event>
+
+<log4j:event logger="com.nt.test.Test" timestamp="1595502375380" level="INFO" thread="main">
+<log4j:message><![CDATA[From Rajapur no1]]></log4j:message>
+<log4j:locationInfo class="com.nt.test.Test" method="main" file="Test.java" line="10"/>
+</log4j:event>
+
+<log4j:event logger="com.nt.test.Test" timestamp="1595502375380" level="WARN" thread="main">
+<log4j:message><![CDATA[Mariahu]]></log4j:message>
+<log4j:locationInfo class="com.nt.test.Test" method="main" file="Test.java" line="11"/>
+</log4j:event>
+
+<log4j:event logger="com.nt.test.Test" timestamp="1595502375381" level="ERROR" thread="main">
+<log4j:message><![CDATA[jaunpur]]></log4j:message>
+<log4j:locationInfo class="com.nt.test.Test" method="main" file="Test.java" line="12"/>
+</log4j:event>
+
+<log4j:event logger="com.nt.test.Test" timestamp="1595502375381" level="FATAL" thread="main">
+<log4j:message><![CDATA[Uttar Pradesh]]></log4j:message>
+<log4j:locationInfo class="com.nt.test.Test" method="main" file="Test.java" line="13"/>
+</log4j:event>
+
+2020-07-23 16:45:04,102 [main] DEBUG com.nt.test.Test - Mukesh Patel
+2020-07-23 16:45:04,104 [main] INFO com.nt.test.Test - From Rajapur no1
+2020-07-23 16:45:04,104 [main] WARN com.nt.test.Test - Mariahu
+2020-07-23 16:45:04,104 [main] ERROR com.nt.test.Test - jaunpur
+2020-07-23 16:45:04,105 [main] FATAL com.nt.test.Test - Uttar Pradesh

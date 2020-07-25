@@ -1,0 +1,15 @@
+2020-07-23 16:15:10,761 -4r [main] DEBUG com.nt.test.Test  - Mukesh Patel
+2020-07-23 16:15:10,781 -4r [main] INFO  com.nt.test.Test  - From Rajapur no1
+2020-07-23 16:15:10,781 -4r [main] WARN  com.nt.test.Test  - Mariahu
+2020-07-23 16:15:10,781 -4r [main] ERROR com.nt.test.Test  - jaunpur
+2020-07-23 16:15:10,781 -4r [main] FATAL com.nt.test.Test  - Uttar Pradesh
+2020-07-23 16:30:46,569 -4r [main] DEBUG com.nt.test.Test  - Mukesh Patel
+2020-07-23 16:30:46,570 -4r [main] INFO  com.nt.test.Test  - From Rajapur no1
+2020-07-23 16:30:46,570 -4r [main] WARN  com.nt.test.Test  - Mariahu
+2020-07-23 16:30:46,570 -4r [main] ERROR com.nt.test.Test  - jaunpur
+2020-07-23 16:30:46,570 -4r [main] FATAL com.nt.test.Test  - Uttar Pradesh
+2020-07-23 16:32:06,662 -4r [main] DEBUG com.nt.test.Test  - Mukesh Patel
+2020-07-23 16:32:06,663 -4r [main] INFO  com.nt.test.Test  - From Rajapur no1
+2020-07-23 16:32:06,663 -4r [main] WARN  com.nt.test.Test  - Mariahu
+2020-07-23 16:32:06,663 -4r [main] ERROR com.nt.test.Test  - jaunpur
+2020-07-23 16:32:06,663 -4r [main] FATAL com.nt.test.Test  - Uttar Pradesh
