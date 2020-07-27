@@ -26,6 +26,9 @@ sourceSets{
              }
          }  
     }
+    run{
+    standardInput=System.in
+    }
 
 dependencies {
     // https://mvnrepository.com/artifact/junit/junit
