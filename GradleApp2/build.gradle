@@ -9,14 +9,30 @@
 plugins {
     // Apply the java-library plugin to add support for Java Library
     id 'java'
+    id'application'
 }
 
 repositories {
   
-    mavenCentral()
+   // mavenCentral()//for maven central repositories
+    jcenter() 
+    maven{
+         url "https://maven.repository.redhat.com/ga/"
+    }
+    google()
 }
 
 dependencies {
    // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
+    // https://mvnrepository.com/artifact/com.oracle.ojdbc/ojdbc8
+ implementation group: 'com.oracle.ojdbc', name: 'ojdbc8', version: '19.3.0.0'
+// https://mvnrepository.com/artifact/com.oracle/ojdbc
+//implementation group: 'com.oracle', name: 'ojdbc8', version: '12.2.0.1'
+// https://mvnrepository.com/artifact/joda-time/joda-time
+implementation group: 'joda-time', name: 'joda-time', version: '2.9.7.redhat-1'
+implementation group:'org.aspectj',name:'aspectjrt',version:'1.9.5'
+implementation group:'android.arch.persistence.room',name:'guava',version:'1.1.0-beta1'
+implementation files("E:\\Software\\Gradle\\Gradle-WorkSpaces\\App4-java\\build\\libs\\App4-java-1.0.jar")
 }
+mainClassName='com.nt.util.MathOperations'

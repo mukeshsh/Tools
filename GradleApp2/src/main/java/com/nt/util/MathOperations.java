@@ -8,5 +8,12 @@ public class MathOperations {
 		MathOperations operations=null;
 		operations=new MathOperations();
 		System.out.println("Result is ::"+operations.sum(100, 300));
+		try {
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			System.out.println("driver loaded..........");
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 }
